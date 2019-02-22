@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f2f2;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.box{
+    width: 390px;
+    height: 427px;
+    background-color: #fff;
+    margin: 30px auto;
+}
+h2{
+    color: #69a88f;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f7faf9 ;
+    font-size: 17px;
+    position: relative;
+}
+h2 span {
+    display: inline-block;
+    height: 20px;
+    width: 5px;
+    margin-right: 16px;
+    background-color: #69a88f;
+}
+h2 b{
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+}
+
+ /* 轮播图显示区域----------------------- */
+ .swiper-container {
+    width: 390px;
+  height: 100%;
+    background-color: #fff;
+    text-align: center  ;
+}
+/* 分页器样式------------------------------ */
+.swiper-pagination-bullet{
+    width: 12px;
+    height: 6px;
+    border-radius: 2px;
+    background-color:#69a88f ;
+}
+.banner{
+    margin-top: 15px;
+    width: 350px;
+    height: 150px;
+}
+.content{
+    width: 336px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 13px 7px 0;
+}
+.content p:first-child{
+    font-size: 17px;
+    color: #222;
+    margin-bottom: 10px;
+}
+.content p:last-child{
+    font-size: 13px;
+    text-align: left;
+    line-clamp: 20px;
+    color: #999;
+}
+.smallPicBox{
+    width: 360px;
+    height: 110px;
+    margin: 15px auto 0;
+}
+.smallPicBox img{
+    width: 105px;
+    height: 105px;
+}
+
+
+.swiper-container .hide{
+    opacity:0;
+  }
+  .swiper-button-next,.swiper-button-prev{
+    transition:opacity .5s;
+  }
